@@ -1,0 +1,62 @@
+Index: .idea/libraries/Maven__com_beust_jcommander_1_72.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__com_beust_jcommander_1_72.xml b/.idea/libraries/Maven__com_beust_jcommander_1_72.xml
+deleted file mode 100644
+--- a/.idea/libraries/Maven__com_beust_jcommander_1_72.xml	(revision 66d13f548a20c4c0d12ae0c76fef8eb1f251535b)
++++ /dev/null	(revision 66d13f548a20c4c0d12ae0c76fef8eb1f251535b)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: com.beust:jcommander:1.72">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml b/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml
+deleted file mode 100644
+--- a/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml	(revision 66d13f548a20c4c0d12ae0c76fef8eb1f251535b)
++++ /dev/null	(revision 66d13f548a20c4c0d12ae0c76fef8eb1f251535b)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.apache-extras.beanshell:bsh:2.0b6">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: src/main/java/hello.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class hello {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"hheh\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hello.java b/src/main/java/hello.java
+--- a/src/main/java/hello.java	(revision 66d13f548a20c4c0d12ae0c76fef8eb1f251535b)
++++ b/src/main/java/hello.java	(date 1622560815063)
+@@ -1,5 +1,9 @@
+ public class hello {
+     public static void main(String[] args) {
++<<<<<<< HEAD
+         System.out.println("hheh");
++=======
++        System.out.println("hello");
++>>>>>>> cherry
+     }
+ }

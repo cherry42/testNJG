@@ -6,7 +6,7 @@ public class sumTest {
     public void test(){
         int expect=11;
         sum sum = new sum();
-        int add =git sum.add(5, 6);
+        int add =sum.add(5, 6);
         Assert.assertEquals(add,expect);
 
 
